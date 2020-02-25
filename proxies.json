@@ -114,7 +114,11 @@
             "matchCondition": {
                 "route": "Public/info"
             },
-            "backendUri": "https://apitest.omro.ro/api/Public/info"
+            "backendUri": "https://apitest.omro.ro/api/Public/info",
+            "responseOverrides": {
+                "response.statusCode": "200",
+                "response.body": "{\n  \"sessionId\": \"3fa85f64-5717-4562-b3fc-2c963f66afa6\",\n  \"tacVersion\": 0,\n  \"tacLastUpdatedDate\": \"2020-02-25T13:28:01.683Z\",\n  \"tacContent\": \"string\",\n  \"marketingAccord\": \"string\",\n  \"gdprAccord\": \"string\"\n}"
+            }
         },
         "ProductRequestFlow": {
             "matchCondition": {
