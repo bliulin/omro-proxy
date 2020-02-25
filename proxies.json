@@ -1,0 +1,134 @@
+{
+    "$schema": "http://json.schemastore.org/proxies",
+    "proxies": {
+        "UserProfile": {
+            "matchCondition": {
+                "route": "Private/userprofile",
+                "methods": [
+                    "GET"
+                ]
+            },
+            "backendUri": "https://apitest.omro.ro/api/Private/userprofile"
+        },
+        "CheckProductOfferStatus": {
+            "matchCondition": {
+                "route": "Private/checkproductofferstatus"
+            },
+            "backendUri": "https://apitest.omro.ro/api/Private/checkproductofferstatus"
+        },
+        "RequestNewProduct": {
+            "matchCondition": {
+                "route": "Private/requestnewproduct"
+            },
+            "backendUri": "https://apitest.omro.ro/api/Private/requestnewproduct"
+        },
+        "UI": {
+            "matchCondition": {
+                "route": "Private/ui"
+            },
+            "backendUri": "https://apitest.omro.ro/api/Private/ui"
+        },
+        "DownloadFile": {
+            "matchCondition": {
+                "route": "Private/downloadFile"
+            },
+            "backendUri": "https://apitest.omro.ro/api/Private/downloadFile"
+        },
+        "DeleteFile": {
+            "matchCondition": {
+                "route": "Private/deletefile"
+            },
+            "backendUri": "https://apitest.omro.ro/api/Private/deletefile"
+        },
+        "SetFileRepositoryAsCompleted": {
+            "matchCondition": {
+                "route": "Private/setfilerepositoryascompleted"
+            },
+            "backendUri": "https://apitest.omro.ro/api/Private/setfilerepositoryascompleted"
+        },
+        "UploadBinaryFile": {
+            "matchCondition": {
+                "route": "Private/uploadbinaryfile"
+            },
+            "backendUri": "https://apitest.omro.ro/api/Private/uploadbinaryfile"
+        },
+        "StartRegistration": {
+            "matchCondition": {
+                "route": "Public/startregistration"
+            },
+            "backendUri": "https://apitest.omro.ro/api/Public/startregistration"
+        },
+        "ValidateEmail": {
+            "matchCondition": {
+                "route": "Public/validateemail"
+            },
+            "backendUri": "https://apitest.omro.ro/api/Public/validateemail"
+        },
+        "ResendEmailCode": {
+            "matchCondition": {
+                "route": "Public/resendemailcode"
+            },
+            "backendUri": "https://apitest.omro.ro/api/Public/resendemailcode"
+        },
+        "RegisterPhone": {
+            "matchCondition": {
+                "route": "/public/registerphone"
+            },
+            "backendUri": "https://apitest.omro.ro/api/public/registerphone"
+        },
+        "ValidatePhone": {
+            "matchCondition": {
+                "route": "/public/validatephone"
+            },
+            "backendUri": "https://apitest.omro.ro/api/public/validatephone"
+        },
+        "ResendPhonecode": {
+            "matchCondition": {
+                "route": "/public/resendphonecode"
+            },
+            "backendUri": "https://apitest.omro.ro/api//public/resendphonecode"
+        },
+        "FinishRegistration": {
+            "matchCondition": {
+                "route": "/public/finishregistration"
+            },
+            "backendUri": "https://apitest.omro.ro/api/public/finishregistration"
+        },
+        "RegisterNewCustomer": {
+            "matchCondition": {
+                "route": "Private/registernewcustomer"
+            },
+            "backendUri": "https://apitest.omro.ro/api/Private/registernewcustomer"
+        },
+        "DeleteCustomer": {
+            "matchCondition": {
+                "route": "Private/deletecustomer"
+            },
+            "backendUri": "https://apitest.omro.ro/api/Private/deletecustomer"
+        },
+        "Info": {
+            "matchCondition": {
+                "route": "Public/info"
+            },
+            "backendUri": "https://apitest.omro.ro/api/Public/info"
+        },
+        "ProductRequestFlow": {
+            "matchCondition": {
+                "route": "Private/productrequestflow"
+            },
+            "backendUri": "https://apitest.omro.ro/api/Private/productrequestflow"
+        },
+        "ProductRequests": {
+            "matchCondition": {
+                "route": "Private/productrequests"
+            },
+            "backendUri": "https://apitest.omro.ro/api/Private/productrequests"
+        },
+        "CancelProductRequest": {
+            "matchCondition": {
+                "route": "Private/cancelproductrequest"
+            },
+            "backendUri": "https://apitest.omro.ro/api/Private/cancelproductrequest"
+        }
+    }
+}
